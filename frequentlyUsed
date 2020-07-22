@@ -1,3 +1,4 @@
+### If you want to keep only numeric and character types 
 ```
 import re
 escape = re.compile('[^ a-zA-Z0-9\u3131-\u3163\uac00-\ud7a3]+') #숫자와 문자 외에는 제거하라
